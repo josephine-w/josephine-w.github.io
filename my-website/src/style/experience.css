@@ -1,0 +1,43 @@
+.experience .exp-box {
+    background-color: #ffd6e1;
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 50px;
+    outline: 0.2rem solid white;
+    outline-offset: -10px;
+}
+
+.experience .exp-box:hover {
+    box-shadow: 0 5px 15px #f292ad;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.experience .title {
+    display: flex;
+}
+
+.experience .title .job {
+    margin-left: 1rem;
+}
+
+.experience .title h2, h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.experience .title img {
+    width: 4rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.experience .vl {
+    border-left: 6px solid #ffb3c8;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}

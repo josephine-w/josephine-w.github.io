@@ -1,0 +1,89 @@
+@import "main.css";
+@import "navbar.css";
+@import "projects.css";
+@import "experience.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;400;500;600;700&display=swap');
+
+.melody {
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px;
+    width: 15rem;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.content {
+    padding-top: 15%;
+}
+
+.left {
+    float: left;
+    width: 40%;
+}
+
+.right {
+    float: right;
+    width: 60%;
+}
+
+h1 {
+    width: 80%;
+}
+
+p {
+    width: 60%;
+    text-align: justify;
+    word-spacing:-2px;
+}
+
+
+@media (min-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        width: 85%;
+        font-size: 1rem;
+    }
+    .content {
+        padding-top: 15%;
+    }
+    .melody {
+        width: 7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .melody {
+        width: 10rem;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1rem;
+    }
+    p {
+        width: 50%;
+    }
+    .content {
+        padding-top: 10%;
+    }
+    
+}
