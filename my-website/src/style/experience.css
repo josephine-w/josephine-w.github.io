@@ -1,43 +1,51 @@
-.experience .exp-box {
-    background-color: #ffd6e1;
-    width: 50%;
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 50px;
-    outline: 0.2rem solid white;
-    outline-offset: -10px;
-}
-
 .experience .exp-box:hover {
     box-shadow: 0 5px 15px #f292ad;
     transition: ease 0.2s;
     cursor: pointer;
 }
 
-.experience .title {
-    display: flex;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .experience .exp-box {
+        display: flex;
+        background-color: #ffd6e1;
+        width: 80%;
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 50px;
+        outline: 0.2rem solid white;
+        outline-offset: -10px;
+    }
+    .experience h2 {
+        font-size: 1.1rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0;
+    }
+    .experience h3 {
+        font-size: .9rem;
+        margin-top: 0.5rem;
+    }
+    .experience .title img {
+        margin: 0;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+    }
 }
 
-.experience .title .job {
-    margin-left: 1rem;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 }
 
-.experience .title h2, h3 {
-    font-size: 1.2rem;
-    margin: 0;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 }
 
-.experience .title img {
-    width: 4rem;
-    height: auto;
-    border-radius: 50%;
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
-.experience .vl {
-    border-left: 6px solid #ffb3c8;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
 }

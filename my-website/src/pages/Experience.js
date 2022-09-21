@@ -16,7 +16,6 @@ export default function Experience() {
                 </div>
             </div>
         </div>
-        <div class="vl"></div>
         <div class="exp-box">
         <div class="title">
                 <img src={bmo}></img>
@@ -26,7 +25,6 @@ export default function Experience() {
                 </div>
             </div>
         </div>
-        <div class="vl"></div>
         <div class="exp-box">
             <div class="title">
                 <img src={assent}></img>
