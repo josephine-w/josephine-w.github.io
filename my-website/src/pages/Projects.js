@@ -12,7 +12,7 @@ export default function Projects() {
         <div class="gallery cf">
                 <div class="row">
                     <div class="box" onclick="">
-                        <img src={website}/>
+                        <img src={website} alt="website"/>
                         <div class="overlay">
                             <a href="https://github.com/josephine-w/josephine-w.github.io" target="_blank"  rel="noreferrer">
                                 <i class="fab fa-github fa-3x"></i></a>
@@ -23,7 +23,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div class="box" onclick="">
-                        <img src={fridgey}/>
+                        <img src={fridgey} alt="fridge"/>
                         <div class="overlay">
                             <a href="https://github.com/josephine-w/reci.py" target="_blank"  rel="noreferrer">
                                 <i class="fab fa-github fa-3x"></i>
@@ -35,7 +35,7 @@ export default function Projects() {
                         </div>  
                     </div>
                     <div class="box" onclick="">
-                        <img src={cards}/>
+                        <img src={cards} alt="cards"/>
                         <div class="overlay">
                             <div class="project-title">straights (card game) (2021)</div>
                             <i class="tools">C++</i>
@@ -44,7 +44,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div class="box" onclick="">
-                        <img src={operate}/>
+                        <img src={operate} alt="operate"/>
                         <div class="overlay">
                             <a href="https://github.com/josephine-w/operate-game" target="_blank"  rel="noreferrer">
                                 <i class="fab fa-github fa-3x"></i>
@@ -56,7 +56,7 @@ export default function Projects() {
                         </div>  
                     </div>
                     <div class="box" onclick="">
-                        <img src={weather}/>
+                        <img src={weather} alt="weather"/>
                         <div class="overlay">
                             <a href="https://github.com/josephine-w/weether" target="_blank"  rel="noreferrer">
                                 <i class="fab fa-github fa-3x"></i>
