@@ -16,8 +16,21 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
+    background: rgb(255, 250, 246);
+    padding-bottom: 50rem;
 }
 
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
 .content {
     padding-top: 15%;
 }
@@ -42,8 +55,7 @@ p {
     word-spacing:-2px;
 }
 
-
-@media (min-width: 600px) {
+@media only screen and (min-width: 0px) {
     h1 {
         font-size: 1.5rem;
     }
@@ -53,6 +65,8 @@ p {
     p {
         width: 85%;
         font-size: 1rem;
+        text-align: left;
+        word-spacing: 0px;
     }
     .content {
         padding-top: 15%;
