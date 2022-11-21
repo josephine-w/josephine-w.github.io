@@ -13,7 +13,6 @@
 
 .nav li {
     padding-top: 0.5rem;
-    font-size: 1.5rem;
 }
 
 .nav a {
@@ -24,10 +23,9 @@
 }
 
 .nav img{
-    --outline: 3px solid white;
+    --outline: 3px solid rgb(255, 250, 246);
     outline: var(--outline);
     border: var(--outline);
-    width: 6rem;
     height: auto;
     border-radius: 50%;
     transition: transform ease 0.25s;
@@ -83,34 +81,25 @@
 }
 
 /* phone */
-@media (max-width: 600px) {
-    .name {
-        font-size: 1.2rem;
+@media (min-width: 0px) {
+    nav {
+        padding-left: 5rem;
     }
-    .main p {
-        font-size: 0.8rem;
-    }
-    .main .socials ul {
-        font-size: 0.8rem;
-        
-    }
-    .main .socials li {
-        padding-right: 15px;
-    }
-}
-/* responsive media query */
-/* phone */
-@media (max-width: 600px) {
     .nav li {
-        padding-left: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
+    }
+    .nav img {
+        width: 6rem;
     }
 }
 
-/* landscape tablets */
-@media (min-width: 768px) {
+@media (min-width: 600px) {
     .nav li {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+    }
+
+    .nav img {
+        width: 7rem;
     }
 }
 
