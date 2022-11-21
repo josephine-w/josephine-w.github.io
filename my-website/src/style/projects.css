@@ -132,30 +132,21 @@
 
 /* responsive media query */
 
-/* phone */
-@media (max-width: 600px) {
-    .box {
-        max-width: 15rem;
-        flex: 100%;
-    }
-    .gallery {
-        flex-direction: column;
-        align-self: center;
-    }
-}
-
-@media (min-width: 600px) {
-    .box {
-        flex: 50%;
-      }
-      .overlay .description {
-        font-size: 1rem;
-    }
-}
-
-@media (min-width: 768px) {
+@media (min-width: 0px) {
     .gallery {
         width: 100%;
+    }
+    .box {
+        flex: 50%;
+    }
+    .overlay .project-title{
+        font-size: 1rem;
+    }
+    .overlay .tools {
+        font-size: 1rem;
+    }
+    .overlay .description {
+        font-size: 1rem;
     }
 }
 
