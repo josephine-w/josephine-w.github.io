@@ -22,7 +22,7 @@ function App() {
           </Routes>
       </div>
       <div>
-        <img src={melody} className="melody"></img>
+        <img src={melody} className="melody" alt="mymelody"></img>
       </div>
     </div>
     </>
