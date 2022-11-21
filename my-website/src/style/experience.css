@@ -1,51 +1,83 @@
-.experience .exp-box:hover {
-    box-shadow: 0 5px 15px #f292ad;
-    transition: ease 0.2s;
-    cursor: pointer;
+.experience .exp-box {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
+@media only screen and (min-width: 0px) {
+    hr {
+        width: 75%
+    }
+    .experience img {
+        width: 2.5rem;
+        height: auto;
+        float: left;
+        border-radius: 75%;
+        margin-top: 0;
+        margin-right: 1rem;
+    }
     .experience .exp-box {
-        display: flex;
-        background-color: #ffd6e1;
-        width: 80%;
-        margin: 1rem;
-        padding: 1rem;
-        border-radius: 50px;
-        outline: 0.2rem solid white;
-        outline-offset: -10px;
+        padding: 1rem 1rem 7rem 1rem;
+        margin: 1rem 0 1rem 0;
+        width: 75%;
+        border-radius: 25px;
     }
     .experience h2 {
-        font-size: 1.1rem;
-        margin-right: 0.5rem;
-        margin-bottom: 0;
+        font-size: 0.8rem;
+        vertical-align: center;
     }
-    .experience h3 {
-        font-size: .9rem;
-        margin-top: 0.5rem;
+    .experience h2.left {
+        font-weight: 600;
+        width: 100%;
     }
-    .experience .title img {
-        margin: 0;
-        width: 5rem;
-        height: 5rem;
-        border-radius: 50%;
+    .experience h2.right {
+        font-weight: 400;
+        margin-top: 0;
+        width: 100%;
+    }
+    .experience a {
+        font-weight: 600;
+    }
+    .experience li {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .experience h2 {
+        font-size: 1rem;
+    }
+    .experience .exp-box {
+        padding: 1rem 1rem 8rem 1rem;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .experience .exp-box {
+        padding-bottom: 5rem;
+    }
+    .experience h2.left {
+        width: 50%;
+        float: left;
+        margin: 0;
+    }
+    .experience h2.right {
+        width: 50%;
+        float: right;
+        text-align: right;
+        margin: 0;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    .experience .exp-box {
+        padding-bottom: 3rem;
+    }
 }
