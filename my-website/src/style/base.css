@@ -4,11 +4,30 @@
 @import "experience.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;400;500;600;700&display=swap');
 
+
+/* scrollbar */
+html {
+    scroll-behavior: smooth;
+}
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #ffb3c8;
+    border-radius: 10px;
+}
+/* endregion */
+
 .melody {
     position: fixed; 
     bottom: 0px; 
     right: 0px;
-    width: 15rem;
 }
 
 body {
@@ -17,19 +36,7 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     background: rgb(255, 250, 246);
-    padding-bottom: 50rem;
 }
-
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: 2s all ease;
-  }
-  .reveal.active{
-    transform: translateY(0);
-    opacity: 1;
-  }
   
 .content {
     padding-top: 15%;
@@ -99,5 +106,8 @@ p {
     .content {
         padding-top: 10%;
     }
-    
+    .melody {
+        width: 15rem;
+        padding: 0;
+    }
 }
