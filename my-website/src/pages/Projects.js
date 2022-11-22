@@ -3,6 +3,7 @@ import operate from '../assets/operate.png'
 import website from '../assets/website.png'
 import weather from '../assets/weether.png'
 import cards from '../assets/cards.png'
+import FadeIn from 'react-fade-in';
 
 export default function Projects() {
     return (
@@ -10,6 +11,7 @@ export default function Projects() {
     <h1>projects 🔎</h1>
     <div class="projects">
         <div class="gallery cf">
+            <FadeIn delay="100">
                 <div class="row">
                     <div class="box" onclick="">
                         <img src={website} alt="website"/>
@@ -68,6 +70,7 @@ export default function Projects() {
                         </div>  
                     </div>
                 </div>
+            </FadeIn>
             </div>
         </div>
     </>
