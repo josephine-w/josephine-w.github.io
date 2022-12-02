@@ -15,7 +15,7 @@ function Collapsible({pic, role, link, location, dates, content}) {
     <div className="collapsible">
         <div className={isExpanded? "exp-box expanded" : "exp-box"}{...getToggleProps()}>
             <div className="header">
-                <h2 className="left"><div className="pic"><img src={pic} alt="location"></img></div><div className="role">{role} <div className="at">@ <a href={link} target="_blank" rel="noreferrer">{location}</a></div></div></h2>
+                <h2 className="left"><div className="pic"><img src={pic} alt="location"></img></div><div className="role"><a href={link} target="_blank" rel="noreferrer">{location}</a><br></br>{role}</div></h2>
                 <h2 className="right">{dates}</h2>
             </div>
         <div {...getCollapseProps()}>
@@ -34,11 +34,12 @@ export default function Experience() {
         <div class="experience">
             <h1>experience 💼</h1>
             <FadeIn delay="100">
-                <Collapsible pic={uw} role="bachelor's of computer science" link="https://cs.uwaterloo.ca/" location="UWATERLOO" dates="09/2020 - 05/2024" 
+                <Collapsible pic={uw} role="student" link="https://cs.uwaterloo.ca/" location="UNIVERSITY OF WATERLOO" dates="05/2024" 
                     content={
                         <>
                         <br></br>
                         <ul>
+                            <li><strong>degree:</strong> bachelor's of computer science</li>
                             <li><strong>gpa:</strong> 3.5 (89.55)</li>
                             <li><strong>relevant coursework:</strong> Data Structures, Algorithms</li>
                         </ul>
