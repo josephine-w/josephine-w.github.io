@@ -1,0 +1,164 @@
+/* PROJECTS */
+@keyframes float {
+	0% {
+		transform: translatey(0%);
+	}
+	50% {
+		transform: translatey(-1rem);
+	}
+	100% {
+		transform: translatey(0%);
+	}
+}
+
+.projects {
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+}
+
+.gallery {
+    width: 75%;
+    padding-right: 2rem;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.box {
+    margin: 0 1.5rem 1.5rem 0;
+    flex: 25%;
+    max-width: 11rem;
+    position: relative;
+    float: left;
+}
+  
+.box img {
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20%;
+    transition: .1s transform;
+    transform: translateZ(0); 
+  }
+  
+.box:hover {
+    z-index: 1;
+  }
+  
+.box:hover img {
+    transform: scale(1.5,1.5);
+    transition: .3s transform;
+    opacity: 0.3;
+    height: auto;
+  }
+  
+.box .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+  }
+
+.box:hover .overlay {
+    opacity: 1;
+  }
+  
+.project-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.tools {
+    font-size: 1rem;
+}
+
+.description {
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1em;
+    color: black;
+    overflow-wrap: anywhere;
+    background: rgb(255, 255, 255, 0.5)
+}
+
+.gallery .fab {
+    color:black;
+    display: inline-flex;
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+.gallery .fab:hover{
+    color: #ffb3c8;
+    transition: ease 0.2s;
+}
+  
+.cf:before, .cf:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  
+  .cf:after {
+    clear: both;
+  }
+
+@keyframes fillLeft {
+    100% {
+        right: 100%;
+    }
+}
+
+@keyframes fillTop {
+    100% {
+        top: 100%;
+    }
+}
+
+@keyframes fillLeftOdd {
+    100% {
+        left: 100%;
+    }
+}
+
+/* responsive media query */
+
+@media (min-width: 0px) {
+    .gallery {
+        width: 100%;
+    }
+    .box {
+        flex: 50%;
+    }
+    .overlay .project-title{
+        font-size: 1rem;
+    }
+    .overlay .tools {
+        font-size: 1rem;
+    }
+    .overlay .description {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .gallery {
+        width: 95%;
+    }
+}
+
+/* laptops/desktops */
+@media (min-width: 1283px) {
+    .gallery {
+        width: 75%;
+    }
+}

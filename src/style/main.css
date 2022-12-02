@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+.main .socials ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.main .socials i {
+    color: black;
+}
+
+.main .socials li {
+    padding-right: 25px;
+}
+
+.main .socials i:hover {
+    color: #ffb3c8;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.hello {
+    padding-right: 0.25em;
+}
+
+.name {
+    display: flex;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;  
+    font-weight: 700;
+}
+
+.letter, .emoji {
+    color: #ffb3c8;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.letter {
+    text-shadow: 2px 2px #bd4c6e;
+}
+
+.emoji {
+    padding-left: 0.25em;
+}
+
+.letter:hover, .emoji:hover {
+    transform: translateY(-1rem);
+    cursor: pointer;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #ffb3c8;
+    transition: ease 0.2s;
+}
+
+
+/* responsive media query */
+
+/* phone */
+@media (max-width: 600px) {
+    .name {
+        font-size: 1.2rem;
+    }
+    .main p {
+        font-size: 0.8rem;
+    }
+    .main .socials ul {
+        font-size: 0.8rem;
+        
+    }
+    .main .socials li {
+        padding-right: 15px;
+    }
+}
+
+/* portrait tablets + large phones */
+@media (min-width: 600px) {
+    .name {
+        font-size: 2rem;
+    }
+}
+
+/* landscape tablets */
+@media (min-width: 768px) {
+    .name {
+        font-size: 2.5rem;
+    }
+}
+
+/* laptops/desktops */
+@media (min-width: 992px) {
+    .main p {
+        font-size: 1rem;
+    }
+}
