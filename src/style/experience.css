@@ -33,7 +33,7 @@
     /* box */
     .experience .exp-box {
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-        padding-bottom: 1rem;
+        padding-bottom: 2rem;
         margin: 1rem 0 1rem 0;
         width: 75%;
         border-radius: 25px;
@@ -42,7 +42,7 @@
         background-color: white;
     }
     .experience .exp-box:hover, .expanded{
-        background-color: #ffd3e0;
+        background-color: #ffe6ee;
         transition: ease .3s;
         color: #bd4c6e;
         cursor: pointer;
@@ -53,17 +53,13 @@
     .experience .exp-box .header {
         padding: 1rem 1rem 10rem 1rem;
     }
-    .experience .pic {
-        width: 100%;
+    .experience img {
+        width: 4rem;
+        border-radius: 75%;
         float: center;
     }
-    .experience img {
-        width: 3rem;
-        border-radius: 75%;
-        margin-right: 1rem;
-    }
     .experience h2 {
-        font-size: 0.8rem;
+        font-size: .9rem;
         vertical-align: center;
     }
     .experience h2.left {
@@ -87,12 +83,9 @@
     /* endregion */
 
     /* box content */
-    .experience .exp-box .collapsible-content {
-        background-color: #ffe6ee;
-    }
     .experience ul li {
         margin: 1rem 1rem 0 0;
-        font-size: .7rem;
+        font-size: .8rem;
         list-style-type: none;
     }
     /* endregion */
@@ -105,37 +98,46 @@
     .experience ul li {
         font-size: 0.9rem;
     }
+    
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .experience .exp-box .header {
-        padding-bottom: 10rem;
-    }
-    
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .experience hr.dots {
+        width: 50%;
+    }
+    .experience .exp-box {
+        width: 50%;
+    }
     .experience .exp-box .header {
-        padding-bottom: 4rem;
+        padding-bottom: 3rem;
     }
     .experience .pic {
-        width: 15%;
+        width: 10%;
         float: left;
-        margin-right: 1.5rem;
+    }
+    .experience img {
+        width: 3.5rem;
+    }
+    .experience .role {
+        margin-left: 5rem;
     }
     .experience h2.left {
         width: 60%;
         float: left;
         text-align: left;
+        font-size: .8rem;
         margin: 0;
     }
     .experience h2.right {
         width: 40%;
         float: right;
         text-align: right;
-        margin: 0;
+        font-size: .8rem;
     }
     .experience ul li {
         margin: 1rem 3rem 0 2rem;
@@ -152,17 +154,13 @@
     .experience img {
         width: 3rem;
     }
-    .experience .role {
-        margin-left: 4rem;
-    }
-    .experience .pic {
-        width: 5%;
-    }
     .experience h2.left {
-        width: 63%;
+        width: 65%;
+        font-size: 1rem;
     }
     .experience h2.right {
         width: 35%;
+        font-size: 1rem;
     }
     .experience .exp-box .header {
         padding-bottom: 3rem;
