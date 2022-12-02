@@ -6,9 +6,9 @@ export default function Navbar() {
     <nav className="nav">
         <ul>
             <ProfileImage to="/"></ProfileImage>
-            <CustomLink to="/skills">skills</CustomLink>
             <CustomLink to="/experience">experience</CustomLink>
             <CustomLink to="/projects">projects</CustomLink>
+            <CustomLink to="/art">art</CustomLink>
         </ul>
     </nav>
     )
