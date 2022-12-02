@@ -36,6 +36,7 @@ body {
     font-weight: 400;
     font-size: 1.2rem;
     background: rgb(255, 250, 246);
+    overflow: scroll
 }
   
 .content {
@@ -44,12 +45,12 @@ body {
 
 .left {
     float: left;
-    width: 40%;
+    width: 42%;
 }
 
 .right {
     float: right;
-    width: 60%;
+    width: 58%;
 }
 
 h1 {
