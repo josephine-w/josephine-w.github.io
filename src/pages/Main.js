@@ -24,15 +24,11 @@ export default function Main() {
                         my main goal is to bridge the gap between business and technology in today's world!
                         <br></br>
                         <br></br>
-                        Currently @ <a href="https://advisory.kpmg.us/services/lighthouse.html" target="_blank" rel="noreferrer">KPMG</a>.
-                        <br></br>
-                        <br></br>
-                        Feel free to contact me!
+                        Feel free to contact me or take a copy of my <a href={resume} target="_blank" rel="noreferrer">resume</a>! 
                     </p>
                 </div>
                 <div className="socials">
                         <ul>
-                            <li><a href={resume} target="_blank" rel="noreferrer"><i className="fas fa-file fa-2x"></i></a></li>
                             <li><a href="https://www.facebook.com/josephinewidjaja002/" target="_blank" rel="noreferrer"><i className="fa fa-facebook-square fa-2x"></i></a></li>
                             <li><a href="https://github.com/josephine-w" target="_blank" rel="noreferrer"><i className="fab fa-github fa-2x"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/josephine-w/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in fa-2x"></i></a></li>
