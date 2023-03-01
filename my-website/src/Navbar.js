@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="nav">
         <ul>
             <ProfileImage to="/"></ProfileImage>
-            <div class="d3l"><a href="https://d3l-n3st.vercel.app/prev">&lt;&lt;</a><a href="/"> ♡ </a><a href="https://d3l-n3st.vercel.app/next">&gt;&gt;</a></div>
+            <div class="d3l"><a href="https://d3l-n3st.vercel.app/prev">&lt;&lt;</a><a href="https://d3l-n3st.vercel.app/"> ♡ </a><a href="https://d3l-n3st.vercel.app/next">&gt;&gt;</a></div>
             <CustomLink to="/experience">experience</CustomLink>
             <CustomLink to="/projects">projects</CustomLink>
             <CustomLink to="/art">art</CustomLink>            
