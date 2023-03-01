@@ -32,7 +32,6 @@ export default function Main() {
                             <li><a href="https://www.facebook.com/josephinewidjaja002/" target="_blank" rel="noreferrer"><i className="fa fa-facebook-square fa-2x"></i></a></li>
                             <li><a href="https://github.com/josephine-w" target="_blank" rel="noreferrer"><i className="fab fa-github fa-2x"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/josephine-w/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in fa-2x"></i></a></li>
-                            <li><a href = "mailto:j4widjaj@uwaterloo.ca" target="_blank" rel="noreferrer"><i className="fa fa-envelope fa-2x"></i></a></li>
                         </ul>
                 </div>
                 </FadeIn>
