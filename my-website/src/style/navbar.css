@@ -3,6 +3,10 @@
     padding-right: 2.5rem;
 }
 
+.d3l {
+    font-size: 1rem;
+}
+
 .nav ul {
     list-style: none;
     margin: 0;
@@ -11,7 +15,7 @@
     height: 100%;
 }
 
-.nav li {
+.nav li, .d3l {
     padding-top: 0.5rem;
 }
 
@@ -22,7 +26,7 @@
     position: relative;
 }
 
-.nav img{
+.nav img {
     --outline: 3px solid rgb(255, 250, 246);
     outline: var(--outline);
     border: var(--outline);
@@ -80,6 +84,10 @@
     transform: scaleX(1);
 }
 
+.d3l a:hover {
+    color: #ffb3c8;
+}
+
 /* phone */
 @media (min-width: 0px) {
     nav {
@@ -91,6 +99,11 @@
     .nav img {
         width: 6rem;
     }
+
+    .d3l {
+        width: 100%;
+        padding-left: 1.5rem;
+    }
 }
 
 @media (min-width: 600px) {
@@ -100,6 +113,11 @@
 
     .nav img {
         width: 7rem;
+    }
+
+    .d3l {
+        width: 100%;
+        padding-left: 2rem;
     }
 }
 
