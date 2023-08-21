@@ -1,23 +1,23 @@
 {
-  "files": {
-    "main.css": "/static/css/main.85ee046f.css",
-    "main.js": "/static/js/main.cfd3df9e.js",
-    "static/media/me.png": "/static/media/me.a22ed95314f6376aa1ef.png",
-    "static/media/uw.png": "/static/media/uw.4f899ab4e8198a3ba480.png",
-    "static/media/mymelo.gif": "/static/media/mymelo.9f15c10c0e3bc1ae6b74.gif",
-    "static/media/resume.pdf": "/static/media/resume.b21e5908becaba431f7d.pdf",
-    "static/media/bmo.png": "/static/media/bmo.718007e93ca652c4a42a.png",
-    "static/media/fridgey.png": "/static/media/fridgey.a1ff9a19d5bb129347ff.png",
-    "static/media/operate.png": "/static/media/operate.19e5ea400bbc7be667d9.png",
-    "static/media/weether.png": "/static/media/weether.bb26184306dafd9d29d2.png",
-    "static/media/website.png": "/static/media/website.60bb45c47a93110a5e67.png",
-    "static/media/assent.png": "/static/media/assent.3c62e87ec22652eda83e.png",
-    "index.html": "/index.html",
-    "main.85ee046f.css.map": "/static/css/main.85ee046f.css.map",
-    "main.cfd3df9e.js.map": "/static/js/main.cfd3df9e.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.85ee046f.css",
-    "static/js/main.cfd3df9e.js"
-  ]
+  "main.css": "/static/css/main.7657e7ab.chunk.css",
+  "main.js": "/static/js/main.9657cdab.chunk.js",
+  "main.js.map": "/static/js/main.9657cdab.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+  "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+  "static/js/2.1ee269d4.chunk.js": "/static/js/2.1ee269d4.chunk.js",
+  "static/js/2.1ee269d4.chunk.js.map": "/static/js/2.1ee269d4.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.100c4a55353c5e6cb3ea07af24026407.js": "/precache-manifest.100c4a55353c5e6cb3ea07af24026407.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.7657e7ab.chunk.css.map": "/static/css/main.7657e7ab.chunk.css.map",
+  "static/media/assent.png": "/static/media/assent.cb0ac860.png",
+  "static/media/bmo.png": "/static/media/bmo.9da95b39.png",
+  "static/media/fridgey.png": "/static/media/fridgey.716f087b.png",
+  "static/media/me.png": "/static/media/me.9b269d0e.png",
+  "static/media/mymelo.gif": "/static/media/mymelo.b050be33.gif",
+  "static/media/operate.png": "/static/media/operate.21030791.png",
+  "static/media/resume.pdf": "/static/media/resume.731d7720.pdf",
+  "static/media/uw.png": "/static/media/uw.901917f9.png",
+  "static/media/website.png": "/static/media/website.02fe6fbc.png",
+  "static/media/weether.png": "/static/media/weether.5a346c6b.png"
 }
