@@ -2,7 +2,6 @@ import React from "react";
 import fridgey from "../assets/fridgey.png";
 import operate from "../assets/operate.png";
 import website from "../assets/website.png";
-import weather from "../assets/weether.png";
 import cards from "../assets/cards.png";
 import FadeIn from "react-fade-in";
 
@@ -77,24 +76,6 @@ export default function Projects() {
                   <hr></hr>
                   <div class="description">
                     based on the beloved Operation board game!
-                  </div>
-                </div>
-              </div>
-              <div class="box" onclick="">
-                <img src={weather} alt="weather" />
-                <div class="overlay">
-                  <a
-                    href="https://github.com/josephine-w/weether"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <i class="fab fa-github fa-3x"></i>
-                  </a>
-                  <div class="project-title">weether (2021)</div>
-                  <i class="tools">Javascript, HTML/CSS, OpenWeather API</i>
-                  <hr></hr>
-                  <div class="description">
-                    a small weather app for JS practice
                   </div>
                 </div>
               </div>

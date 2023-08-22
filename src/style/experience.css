@@ -3,49 +3,29 @@
 }
 
 @media only screen and (min-width: 0px) {
-    /* dots */
-    .experience hr.dots {
-        width: 75%;
-        margin: 1.5em 0;
-        text-align: center;
-        border: none;
-    }
-    .experience hr.dots:before {
-        content: '';
-        display: inline-block;
-        width: 0.7rem;
-        height: 0.7rem;
-        border-radius: 50%;
-        background: #bd4c6e;
-        margin: 0 0.4em;
-    }
-    .experience hr.dots:after {
-        content: '';
-        display: inline-block;
-        width: 0.7rem;
-        height: 0.7rem;
-        border-radius: 50%;
-        background: #bd4c6e;
-        margin: 0 0.4em;
-    }
-    /* endregion */
 
     /* box */
     .experience .exp-box {
-        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        box-shadow: rgba(0, 0, 0, 0.01) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         padding-bottom: 2rem;
+        background-color: white;
         margin: 1rem 0 1rem 0;
         width: 75%;
         border-radius: 25px;
     }
-    .experience .exp-box:not(.expanded) {
-        background-color: white;
-    }
-    .experience .exp-box:hover, .expanded{
-        background-color: #ffe6ee;
+    .experience .exp-box:hover {
         transition: ease .3s;
-        color: #bd4c6e;
+        background-color:  #ffe6ee;
         cursor: pointer;
+    }
+
+    .experience .header:hover {
+        color: #bd4c6e;
+        transition: ease .3s;
+    }
+
+    .experience .exp-box .location {
+        font-weight: 400;
     }
     /* endregion */
 
@@ -73,13 +53,6 @@
         width: 100%;
         text-align: center;
     }
-    .experience a {
-        font-weight: 600;
-        color: inherit;
-    }
-    .experience a:hover {
-        font-style: italic;
-    }
     /* endregion */
 
     /* box content */
@@ -101,20 +74,14 @@
     
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .experience hr.dots {
-        width: 50%;
-    }
     .experience .exp-box {
-        width: 50%;
+        width: 80%;
     }
+
     .experience .exp-box .header {
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
     }
     .experience .pic {
         width: 10%;
@@ -123,46 +90,44 @@
     .experience img {
         width: 3.5rem;
     }
-    .experience .role {
-        margin-left: 5rem;
+    .experience .role, .location {
+        margin-left: 4.5rem;
     }
     .experience h2.left {
-        width: 60%;
+        width: 65%;
         float: left;
         text-align: left;
-        font-size: .8rem;
+        font-size: 1rem;
         margin: 0;
     }
     .experience h2.right {
-        width: 40%;
-        float: right;
-        text-align: right;
-        font-size: .8rem;
-    }
-    .experience ul li {
-        margin: 1rem 3rem 0 2rem;
-        font-size: 0.9rem;
-        list-style-type: none;
+        width: 35%;
+        font-size: 1rem;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .experience .exp-box {
-        width: 50%;
-    }
-    .experience img {
-        width: 3rem;
+        width: 65%;
     }
     .experience h2.left {
         width: 65%;
         font-size: 1rem;
     }
-    .experience h2.right {
-        width: 35%;
-        font-size: 1rem;
-    }
     .experience .exp-box .header {
-        padding-bottom: 3rem;
+        padding-bottom: 2.3rem;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .experience .exp-box {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1750px) {
+    .experience .exp-box {
+        width: 50%;
     }
 }

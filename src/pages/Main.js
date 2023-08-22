@@ -22,28 +22,16 @@ export default function Main() {
           </div>
           <div className="info">
             <p>
-              I am a 3rd year Computer Science student @ UWaterloo. I'm mainly
-              interested in data science, and my main goal is to bridge the gap
-              between business and technology in today's world!
-              <br></br>
-              <br></br>
-              Feel free to contact me or take a copy of my{" "}
-              <a href={resume} target="_blank" rel="noreferrer">
-                resume
-              </a>
-              !
+              I'm currently a 3rd year Computer Science student @ Universiy of Waterloo. I am passionate about 
+              data-driven solutions, whether it be engineering ETL pipelines or putting together insightful models!  
             </p>
           </div>
           <div className="socials">
             <ul>
               <li>
-                <a
-                  href="https://www.facebook.com/josephinewidjaja002/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fa fa-facebook-square fa-2x"></i>
-                </a>
+                <a href={resume} target="_blank" rel="noreferrer">
+                <i className="fa fa-file fa-2x"></i>
+              </a>
               </li>
               <li>
                 <a

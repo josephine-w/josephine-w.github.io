@@ -57,6 +57,10 @@
     cursor: pointer;
 }
 
+.info p {
+    text-align: justify;
+}
+
 a, a:visited {
     text-decoration: none;
     color: black;
@@ -99,6 +103,9 @@ a:hover {
 @media (min-width: 768px) {
     .name {
         font-size: 2.5rem;
+    }
+    .main p {
+        font-size: 0.5rem;
     }
 }
 
