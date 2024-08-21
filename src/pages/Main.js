@@ -18,18 +18,18 @@ export default function Main() {
             <div class="letter">i</div>
             <div class="letter">n</div>
             <div class="letter">e</div>
-            <div class="emoji">😊</div>
+            <div class="emoji"><span role="img" aria-label="blushing smiling face">😊</span></div>
           </div>
           <div className="info">
             <p>
-              I'm currently a 3rd year Computer Science student @ Universiy of Waterloo. I am passionate about 
+              I'm currently a 4th year Computer Science student at the Universiy of Waterloo. I am passionate about 
               data-driven solutions, whether it be engineering ETL pipelines or putting together insightful models!  
             </p>
           </div>
           <div className="socials">
             <ul>
               <li>
-                <a href={resume} target="_blank" rel="noreferrer">
+                <a href={resume} target="_blank" rel="noopener noreferrer">
                 <i className="fa fa-file fa-2x"></i>
               </a>
               </li>
@@ -37,7 +37,7 @@ export default function Main() {
                 <a
                   href="https://github.com/josephine-w"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-github fa-2x"></i>
                 </a>
@@ -46,7 +46,7 @@ export default function Main() {
                 <a
                   href="https://www.linkedin.com/in/josephine-w/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <i className="fab fa-linkedin-in fa-2x"></i>
                 </a>

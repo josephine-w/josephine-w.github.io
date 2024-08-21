@@ -1,5 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import me from "./assets/me.png";
+import me from "./assets/me.jpg";
 import React from "react";
 
 export default function Navbar() {
@@ -9,7 +9,6 @@ export default function Navbar() {
         <ProfileImage to="/"></ProfileImage>
         <CustomLink to="/experience">experience</CustomLink>
         <CustomLink to="/projects">projects</CustomLink>
-        <CustomLink to="/art">art</CustomLink>
       </ul>
     </nav>
   );

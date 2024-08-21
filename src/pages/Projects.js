@@ -8,7 +8,7 @@ import FadeIn from "react-fade-in";
 export default function Projects() {
   return (
     <>
-      <h1>projects 🔎</h1>
+      <h1>projects (archive) <span role="img" aria-label="magnifying glass">🔎</span></h1>
       <div class="projects">
         <div class="gallery cf">
           <FadeIn delay="100">
@@ -19,7 +19,7 @@ export default function Projects() {
                   <a
                     href="https://github.com/josephine-w/josephine-w.github.io"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <i class="fab fa-github fa-3x"></i>
                   </a>
@@ -35,7 +35,7 @@ export default function Projects() {
                   <a
                     href="https://github.com/josephine-w/reci.py"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <i class="fab fa-github fa-3x"></i>
                   </a>
@@ -67,7 +67,7 @@ export default function Projects() {
                   <a
                     href="https://github.com/josephine-w/operate-game"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                   >
                     <i class="fab fa-github fa-3x"></i>
                   </a>
