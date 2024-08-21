@@ -4,7 +4,7 @@ import Art from "./pages/Art";
 import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import { Route, Routes } from "react-router-dom";
-import melody from "./assets/mymelo.gif";
+import pxl from "./assets/pxl.gif";
 import React from "react";
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         </div>
       </div>
       <div>
-        <img src={melody} className="melody" alt="mymelody"></img>
+        <img src={pxl} className="melody" alt="mymelody"></img>
       </div>
     </>
   );

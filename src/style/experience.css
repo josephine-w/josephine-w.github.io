@@ -90,7 +90,7 @@
     .experience img {
         width: 3.5rem;
     }
-    .experience .role, .location {
+    .experience .title, .location {
         margin-left: 4.5rem;
     }
     .experience h2.left {
