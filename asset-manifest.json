@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.75831d29.chunk.css",
-    "main.js": "/static/js/main.8d4794b0.chunk.js",
-    "main.js.map": "/static/js/main.8d4794b0.chunk.js.map",
+    "main.css": "/static/css/main.ad50c69d.chunk.css",
+    "main.js": "/static/js/main.c53107b1.chunk.js",
+    "main.js.map": "/static/js/main.c53107b1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8ad5dc57.js",
     "runtime-main.js.map": "/static/js/runtime-main.8ad5dc57.js.map",
     "static/css/2.0e31c611.chunk.css": "/static/css/2.0e31c611.chunk.css",
     "static/js/2.1bf07f39.chunk.js": "/static/js/2.1bf07f39.chunk.js",
     "static/js/2.1bf07f39.chunk.js.map": "/static/js/2.1bf07f39.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.562437223b9f36b39c6f2ad6eef5b392.js": "/precache-manifest.562437223b9f36b39c6f2ad6eef5b392.js",
+    "precache-manifest.b19b2e2ff3ffd775509f1494d8e8eee5.js": "/precache-manifest.b19b2e2ff3ffd775509f1494d8e8eee5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.0e31c611.chunk.css.map": "/static/css/2.0e31c611.chunk.css.map",
-    "static/css/main.75831d29.chunk.css.map": "/static/css/main.75831d29.chunk.css.map",
+    "static/css/main.ad50c69d.chunk.css.map": "/static/css/main.ad50c69d.chunk.css.map",
     "static/js/2.1bf07f39.chunk.js.LICENSE.txt": "/static/js/2.1bf07f39.chunk.js.LICENSE.txt",
     "static/media/assent.png": "/static/media/assent.cb0ac860.png",
     "static/media/bmo.png": "/static/media/bmo.9da95b39.png",
@@ -20,7 +20,7 @@
     "static/media/me.jpg": "/static/media/me.372c614b.jpg",
     "static/media/meta.png": "/static/media/meta.077fc333.png",
     "static/media/operate.png": "/static/media/operate.b7601579.png",
-    "static/media/pxl.gif": "/static/media/pxl.20651bee.gif",
+    "static/media/pxl.gif": "/static/media/pxl.9088f10b.gif",
     "static/media/recipy.png": "/static/media/recipy.c5d1473a.png",
     "static/media/resume.pdf": "/static/media/resume.cfaf48bc.pdf",
     "static/media/tesla.png": "/static/media/tesla.410664cc.png",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.8ad5dc57.js",
     "static/css/2.0e31c611.chunk.css",
     "static/js/2.1bf07f39.chunk.js",
-    "static/css/main.75831d29.chunk.css",
-    "static/js/main.8d4794b0.chunk.js"
+    "static/css/main.ad50c69d.chunk.css",
+    "static/js/main.c53107b1.chunk.js"
   ]
 }
