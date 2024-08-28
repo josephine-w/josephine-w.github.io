@@ -7,77 +7,91 @@ import meta from "../assets/meta.png"
 import FadeIn from "react-fade-in";
 import React from "react";
 
-function ExpBox({ pic, title, link, location, dates }) {
-  return (
-        <div className="exp-box">
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          <div className="header">
-            <h2 className="left">
-              <div className="pic">
-                <img src={pic} alt="location"></img>
-              </div>
-              <div className="title">
-                {title}
-              </div>
-              <div className="location">
-                {location}
-              </div>
-            </h2>
-            <h2 className="right">{dates}</h2>
-          </div>
-        </a>
-        </div>
-  );
-}
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+
+const handleClick = (url) => {
+  window.open(url, '_blank');
+};
 
 export default function Experience() {
   return (
     <>
       <div class="experience">
-        <h1>experience <span role="img" aria-label="briefcase">💼</span></h1>
+        <h1>experience</h1>
         <FadeIn delay="100">
-          <ExpBox
-            pic={meta}
-            title="data engineer intern"
-            link="https://about.meta.com/"
-            location="META"
-            dates="05/2024-08/2024"
-          ></ExpBox>
-          <ExpBox
-            pic={tesla}
-            title="data engineer intern"
-            link="https://www.tesla.com/"
-            location="TESLA"
-            dates="01/2024-04/2024"
-          ></ExpBox>
-          <ExpBox
-            pic={tatari}
-            title="software engineer intern"
-            link="https://www.tatari.tv/"
-            location="TATARI"
-            dates="05/2023-09/2023"
-          ></ExpBox>
-          <ExpBox
-            pic={kpmg}
-            title="data science intern"
-            link="https://advisory.kpmg.us/services/lighthouse.html"
-            location="KPMG"
-            dates="09/2022 - 12/2022"
-          ></ExpBox>
-          <ExpBox
-            pic={bmo}
-            title="business analyst intern"
-            link="https://www.bmo.com/main/personal"
-            location="BMO"
-            dates="01/2022 - 04/2022"
-          ></ExpBox>
-          <ExpBox
-            pic={assent}
-            title="machine learning intern"
-            link="https://www.assent.com/"
-            location="ASSENT"
-            dates="05/2021 - 08/2021"
-          ></ExpBox>
+          <VerticalTimeline
+            layout={'1-column-left'}
+            lineColor={'#fff'}
+          >
+          <VerticalTimelineElement
+            contentStyle={{ background: '#fff', color: '#f0c0ce' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            className="vertical-timeline-element--work"
+            date="may 2024 - aug 2024"
+            iconStyle={{ color: '#fff' }}
+            icon={<img src={meta} alt="Meta"/>}
+            onTimelineElementClick={() => handleClick('https://www.meta.com')}
+          >
+            <h2 className="vertical-timeline-element-title">Data Engineer Intern</h2>
+            <h3 className="vertical-timeline-element-subtitle">Meta</h3>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+              contentStyle={{ background: '#fff', color: '#f0c0ce' }}
+              contentArrowStyle={{ borderRight: '7px solid #fff' }}
+              className="vertical-timeline-element--work"
+              date="jan 2024 - apr 2024"
+              icon={<img src={tesla} alt="Tesla" />}
+              onTimelineElementClick={() => handleClick('https://www.tesla.com/')}
+          >
+              <h2 className="vertical-timeline-element-title">Data Engineer Intern</h2>
+              <h3 className="vertical-timeline-element-subtitle">Tesla</h3>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            contentStyle={{ background: '#fff', color: '#f0c0ce' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            className="vertical-timeline-element--work"
+            date="may 2023 - sep 2023"
+            icon={<img src={tatari} alt="Tatari" />}
+            onTimelineElementClick={() => handleClick('https://www.tatari.tv/')}
+          >
+            <h2 className="vertical-timeline-element-title">Software Engineer Intern</h2>
+            <h3 className="vertical-timeline-element-subtitle">Tatari</h3>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            contentStyle={{ background: '#fff', color: '#f0c0ce' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            className="vertical-timeline-element--work"
+            date="sep 2022 - dec 2022"
+            icon={<img src={kpmg} alt="KPMG" />}
+            onTimelineElementClick={() => handleClick('https://kpmg.com/ae/en/home/services/advisory/digital-and-innovation/kpmg-lighthouse.html')}
+          >
+            <h2 className="vertical-timeline-element-title">Data Science Intern</h2>
+            <h3 className="vertical-timeline-element-subtitle">KPMG</h3>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            contentStyle={{ background: '#fff', color: '#f0c0ce' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            className="vertical-timeline-element--work"
+            date="jan 2022 - apr 2022"
+            icon={<img src={bmo} alt="bmo" />}
+            onTimelineElementClick={() => handleClick('https://www.bmo.com')}
+          >
+            <h2 className="vertical-timeline-element-title">Business Technology Analyst Intern</h2>
+            <h3 className="vertical-timeline-element-subtitle">BMO</h3>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            contentStyle={{ background: '#fff', color: '#f0c0ce' }}
+            contentArrowStyle={{ borderRight: '7px solid #fff' }}
+            className="vertical-timeline-element--work"
+            date="may 2021 - aug 2021"
+            icon={<img src={assent} alt="Assent" />}
+            onTimelineElementClick={() => handleClick('https://www.assent.com/')}
+          >
+            <h2 className="vertical-timeline-element-title">Machine Learning Engineer Intern</h2>
+            <h3 className="vertical-timeline-element-subtitle">Assent</h3>
+          </VerticalTimelineElement>
+          </VerticalTimeline>
         </FadeIn>
       </div>
     </>
