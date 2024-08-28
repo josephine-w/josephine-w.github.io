@@ -1,14 +1,14 @@
 import React from "react";
-import fridgey from "../assets/fridgey.png";
+import recipy from "../assets/recipy.png";
 import operate from "../assets/operate.png";
 import website from "../assets/website.png";
-import cards from "../assets/cards.png";
+import card from "../assets/card.png";
 import FadeIn from "react-fade-in";
 
 export default function Projects() {
   return (
     <>
-      <h1>projects (archive) <span role="img" aria-label="magnifying glass">🔎</span></h1>
+      <h1>projects (archive)</h1>
       <div class="projects">
         <div class="gallery cf">
           <FadeIn delay="100">
@@ -30,7 +30,7 @@ export default function Projects() {
                 </div>
               </div>
               <div class="box" onclick="">
-                <img src={fridgey} alt="fridge" />
+                <img src={recipy} alt="fridge" />
                 <div class="overlay">
                   <a
                     href="https://github.com/josephine-w/reci.py"
@@ -50,7 +50,7 @@ export default function Projects() {
                 </div>
               </div>
               <div class="box" onclick="">
-                <img src={cards} alt="cards" />
+                <img src={card} alt="cards" />
                 <div class="overlay">
                   <div class="project-title">straights (card game) (2021)</div>
                   <i class="tools">C++</i>

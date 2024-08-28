@@ -10,7 +10,7 @@
 }
 
 .main .socials i {
-    color: black;
+    color: rgb(104, 82, 82);
 }
 
 .main .socials li {
@@ -18,7 +18,7 @@
 }
 
 .main .socials i:hover {
-    color: #ffb3c8;
+    color: #f0c0ce;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -39,13 +39,13 @@
 }
 
 .letter, .emoji {
-    color: #ffb3c8;
+    color: #f0c0ce;
     transition: transform 1s;
     cursor: pointer;
 }
 
 .letter {
-    text-shadow: 2px 2px #bd4c6e;
+    text-shadow: 2px 2px #ca718c;
 }
 
 .emoji {
@@ -63,12 +63,12 @@
 
 a, a:visited {
     text-decoration: none;
-    color: black;
+    color: rgb(104, 82, 82);
     font-weight: 600;
 }
 
 a:hover {
-    color: #ffb3c8;
+    color: #f0c0ce;;
     transition: ease 0.2s;
 }
 

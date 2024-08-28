@@ -19,7 +19,7 @@ html {
 }
 
  ::-webkit-scrollbar-thumb {
-    background-color: #ffb3c8;
+    background-color: #f0c0ce;
     border-radius: 10px;
 }
 /* endregion */
@@ -32,10 +32,11 @@ html {
 
 body {
     margin: 0;
+    color: rgb(104, 82, 82);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
-    background: rgb(255, 250, 246);
+    background: rgb(248, 238, 238);
     overflow: scroll
 }
   
@@ -66,6 +67,9 @@ p {
 @media only screen and (min-width: 0px) {
     h1 {
         font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.2rem;
     }
     h3 {
         font-size: 1rem;

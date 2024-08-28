@@ -18,7 +18,7 @@ export default function Main() {
             <div class="letter">i</div>
             <div class="letter">n</div>
             <div class="letter">e</div>
-            <div class="emoji"><span role="img" aria-label="blushing smiling face">😊</span></div>
+            <div class="emoji"><span role="img" aria-label="teddybear">🧸</span></div>
           </div>
           <div className="info">
             <p>
