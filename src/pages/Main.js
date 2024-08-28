@@ -22,7 +22,7 @@ export default function Main() {
           </div>
           <div className="info">
             <p>
-              I'm currently a 4th year Computer Science student at the Universiy of Waterloo. I am passionate about 
+              I'm currently a 4th year Computer Science student at the University of Waterloo. I am passionate about 
               data-driven solutions, whether it be engineering ETL pipelines or putting together insightful models!  
             </p>
           </div>
