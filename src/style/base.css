@@ -84,7 +84,7 @@ p {
         padding-top: 15%;
     }
     .melody {
-        width: 7rem;
+        width: 5rem;
     }
 }
 
@@ -96,7 +96,7 @@ p {
         font-size: 1.5rem;
     }
     .melody {
-        width: 10rem;
+        width: 7rem;
         padding: 0;
     }
 }
@@ -112,7 +112,7 @@ p {
         padding-top: 10%;
     }
     .melody {
-        width: 15rem;
+        width: 10rem;
         padding: 0;
     }
 }
